@@ -373,22 +373,13 @@ Toggle maximize for the current window
 
 Replace these with apps that you want...
 
-    ITERM    = "iTerm2"
-    VIM      = "MacVim"
-    EMACS    = "Emacs"
-    TERMINAL = "iTerm2"
+    SKETCH   = "Sketch"
+    CHROME   = "Google\ Chrome"
     FINDER   = "Finder"
-
-We use an automator app to launch Chrome in remote-debugging-mode (on
-port 9222). You may not like or want this
-
-    CHROME   = "ChromeLauncher"
 
 Switch to or lauch apps - fix these up to use whatever Apps you want on speed dial.
 
-    key_binding 'E', 'Launch Emacs',            mash, -> App.focusOrStart EMACS
-    key_binding 'V', 'Launch Vim',              mash, -> App.focusOrStart VIM
-    key_binding 'T', 'Launch iTerm2',           mash, -> App.focusOrStart ITERM
+    key_binding 'S', 'Launch Sketch',           mash, -> App.focusOrStart SKETCH
     key_binding 'C', 'Launch Chrome',           mash, -> App.focusOrStart CHROME
     key_binding 'F', 'Launch Finder',           mash, -> App.focusOrStart FINDER
 
